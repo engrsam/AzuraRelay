@@ -16,7 +16,7 @@ cp -rT /bd_build/runit/. /etc/service/
 chmod -R +x /etc/service
 
 # Install scripts commonly used during setup.
-$minimal_apt_get_install curl wget tar zip unzip git rsync tzdata gpg-agent openssh-client
+$minimal_apt_get_install curl wget tar vim zip unzip git rsync tzdata gpg-agent openssh-client
 
 # Run service setup for all setup scripts
 for f in /bd_build/setup/*.sh; do
