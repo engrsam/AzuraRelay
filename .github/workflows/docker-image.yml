@@ -1,8 +1,8 @@
-name: Docker Image CI
+name: Azurarelay Docker Image
 
 on:
   push:
-    branches: master
+    branches: release/*
 
 jobs:
   main:
