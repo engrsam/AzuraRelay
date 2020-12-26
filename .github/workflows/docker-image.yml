@@ -19,7 +19,7 @@ jobs:
         uses: docker/login-action@v1 
         with:
           username: ${{ secrets.engrsam }}
-          password: ${{ secrets.SMek02@C++ }}
+          password: ${{ secrets.44624e841d7f79457d76c7b8df872eb80eb950d5 }}
       -
         name: Build and push
         id: docker_build
